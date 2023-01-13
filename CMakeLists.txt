@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(tracemyplane
     Coeur_Vol.cpp
+    Tools.cpp
 )
 
 set(CMAKE_BUILD_TYPE "Debug" CACHE STRING "Debug mode enabled")
